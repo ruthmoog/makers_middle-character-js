@@ -1,14 +1,17 @@
 (function() {
-  function testReturnsString() {
+  function testReturnsStringOf1() {
     var string = "A"
 
     var got = middleChar(string)
     var want = "A"
 
-    if (got !== want)
+    if (got !== want) {
       throw new Error(`got ${got}, want ${want}`)
-  }
-  testReturnsString()
+    } else {
+      console.log("Pass: Return a string of length 1")
+    }
+  } 
+  testReturnsStringOf1()
 })(this);
 
 (function() {
