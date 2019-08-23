@@ -15,80 +15,97 @@
 })(this);
 
 (function() {
-  function testReturnsString() {
+  function testReturnsStringOf2() {
     var string = "of"
 
     var got = middleChar(string)
     var want = "of"
 
-    if (got !== want)
+    if (got !== want) {
       throw new Error(`got ${got}, want ${want}`)
+    } else {
+      console.log("Pass: Return a string of length 2")
+    }
   }
-  testReturnsString()
+  testReturnsStringOf2()
 })(this);
 
 (function() {
-  function testReturnsString() {
+  function testReturnsStringOf3() {
     var string = "the"
 
     var got = middleChar(string)
     var want = "h"
 
-    if (got !== want)
+    if (got !== want) {
       throw new Error(`got ${got}, want ${want}`)
+    } else {
+      console.log("Pass: Return a string of length 3")
+    }
   }
-  testReturnsString()
+  testReturnsStringOf3()
 })(this);
 
 (function() {
-  function testReturnsString() {
+  function testReturnsStringOf4() {
     var string = "test"
 
     var got = middleChar(string)
     var want = "es"
 
-    if (got !== want)
+    if (got !== want) {
       throw new Error(`got ${got}, want ${want}`)
+    } else {
+      console.log("Pass: Return a string of length 4")
+    }
   }
-  testReturnsString()
+  testReturnsStringOf4()
 })(this);
 
 (function() {
-  function testReturnsString() {
+  function testReturnsStringOf5() {
     var string = "testy"
 
     var got = middleChar(string)
     var want = "s"
 
-    if (got !== want)
+    if (got !== want) {
       throw new Error(`got ${got}, want ${want}`)
+    } else {
+      console.log("Pass: Return a string of length 5")
+    }
   }
-  testReturnsString()
+  testReturnsStringOf5()
 })(this);
 
 (function() {
-  function testReturnsString() {
+  function testReturnsStringOf6() {
     var string = "middle"
 
     var got = middleChar(string)
     var want = "dd"
 
-    if (got !== want)
+    if (got !== want) {
       throw new Error(`got ${got}, want ${want}`)
+    } else {
+      console.log("Pass: Return a string of length 6")
+    }
   }
-  testReturnsString()
+  testReturnsStringOf6()
 })(this);
 
 (function() {
-  function testReturnsString() {
+  function testReturnsStringOf7() {
     var string = "testing"
 
     var got = middleChar(string)
     var want = "t"
 
-    if (got !== want)
+    if (got !== want) {
       throw new Error(`got ${got}, want ${want}`)
+    } else {
+      console.log("Pass: Return a string of length 7")
+    }
   }
-  testReturnsString()
+  testReturnsStringOf7()
 })(this);
-
