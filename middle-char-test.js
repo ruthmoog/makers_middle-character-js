@@ -76,6 +76,19 @@
   testReturnsString()
 })(this);
 
+(function() {
+  function testReturnsString() {
+    var string = "testing"
+
+    var got = middleChar(string)
+    var want = "t"
+
+    if (got !== want)
+      throw new Error(`got ${got}, want ${want}`)
+  }
+  testReturnsString()
+})(this);
+
 // get_middle("test") # => "es"
 // get_middle("testing") # => "t"
 // get_middle("middle") # => "dd"
